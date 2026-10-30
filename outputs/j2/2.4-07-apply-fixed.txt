@@ -1,0 +1,5 @@
+deployment.apps/modulith configured
+deployment "modulith" successfully rolled out
+NAME                        READY   STATUS        RESTARTS   AGE
+modulith-5c8b546958-kbj7r   1/1     Running       0          63s
+modulith-7979db7d9f-zzlxr   0/1     Terminating   0          45s

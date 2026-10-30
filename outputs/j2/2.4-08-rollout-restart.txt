@@ -1,0 +1,11 @@
+deployment.apps/modulith restarted
+Waiting for deployment "modulith" rollout to finish: 1 old replicas are pending termination...
+Waiting for deployment "modulith" rollout to finish: 1 old replicas are pending termination...
+deployment "modulith" successfully rolled out
+NAME                  DESIRED   CURRENT   READY   AGE
+modulith-5b89cccfbd   0         0         0       4m26s
+modulith-5c8b546958   0         0         0       75s
+modulith-66d57f8579   1         1         1       7s
+modulith-7979db7d9f   0         0         0       57s
+modulith-7c6866c9fb   0         0         0       5m55s
+modulith-9fd75bdfb    0         0         0       2m53s

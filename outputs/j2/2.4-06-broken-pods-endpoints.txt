@@ -1,0 +1,5 @@
+NAME                        READY   STATUS    RESTARTS   AGE
+modulith-5c8b546958-kbj7r   1/1     Running   0          63s
+modulith-7979db7d9f-zzlxr   0/1     Running   0          45s
+NAME             ADDRESSTYPE   PORTS   ENDPOINTS               AGE
+modulith-bk7dk   IPv4          8080    10.244.2.6,10.244.1.8   5m4s

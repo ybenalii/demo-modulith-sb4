@@ -1,0 +1,11 @@
+deployment.apps/modulith scaled
+Waiting for deployment "modulith" rollout to finish: 1 of 3 updated replicas are available...
+Waiting for deployment "modulith" rollout to finish: 1 of 3 updated replicas are available...
+Waiting for deployment "modulith" rollout to finish: 2 of 3 updated replicas are available...
+deployment "modulith" successfully rolled out
+NAME                        READY   STATUS    RESTARTS   AGE   IP            NODE                NOMINATED NODE   READINESS GATES
+modulith-5c8b546958-4mmj9   1/1     Running   0          17s   10.244.2.7    formation-worker    <none>           <none>
+modulith-5c8b546958-8lt7z   1/1     Running   0          11s   10.244.2.8    formation-worker    <none>           <none>
+modulith-5c8b546958-tvspl   1/1     Running   0          11s   10.244.1.10   formation-worker2   <none>           <none>
+NAME             ADDRESSTYPE   PORTS   ENDPOINTS                           AGE
+modulith-bk7dk   IPv4          8080    10.244.2.7,10.244.2.8,10.244.1.10   5m33s
