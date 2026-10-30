@@ -1,0 +1,5 @@
+service/modulith created
+NAME       TYPE        CLUSTER-IP     EXTERNAL-IP   PORT(S)   AGE
+modulith   ClusterIP   10.96.24.115   <none>        80/TCP    0s
+NAME             ADDRESSTYPE   PORTS   ENDPOINTS    AGE
+modulith-bk7dk   IPv4          8080    10.244.2.4   0s
