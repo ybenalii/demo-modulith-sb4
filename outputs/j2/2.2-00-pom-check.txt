@@ -1,0 +1,9 @@
+# pom.xml checks (the repo pom already had these points right, nothing to change)
+spring-modulith-starter-jpa declarations: 1
+68:            <artifactId>lombok</artifactId>
+69-            <optional>true</optional>
+70-        </dependency>
+71-        <dependency>
+maven-compiler-plugin declarations: 1
+annotationProcessorPaths tags: 4
+no annotationProcessor scope
