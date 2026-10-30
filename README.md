@@ -53,3 +53,47 @@ H2 console: http://localhost:8080/h2-console (JDBC URL is printed in the startup
 - `DemoModulithSb4ApplicationTests`: the whole app starts.
 
 The screenshots come from the real app and real commands, run from a clean copy of this repo. The violation screenshot was taken on a temporary copy with the forbidden access added.
+
+## Kubernetes exercises
+
+The same application is reused for exercises with [kind](https://kind.sigs.k8s.io/).
+
+| Part | Folder / files | Topic | Status |
+|---|---|---|---|
+| Mini-TP | `mini-tp-replicasets/` | Deployment, ReplicaSets, rolling update, rollback, `revisionHistoryLimit` | in progress |
+| J2 | `kind-cluster.yaml`, `k8s/`, `src/` | Modulith on kind: buildpacks image, Service, probes, scaling, Postgres with Secret, ConfigMap and PVC | in progress |
+
+Requirements: Docker, kind 0.30+, kubectl, JDK 21+, bash.
+
+### Mini-TP: ReplicaSets and rollback
+
+```bash
+cd mini-tp-replicasets
+./scripts/01-check-tools.sh   # then the next scripts, in order
+```
+
+Each script's real output is kept in `mini-tp-replicasets/outputs/`.
+
+### J2: Modulith on Kubernetes
+
+```bash
+kind create cluster --name formation --config kind-cluster.yaml
+./mvnw spring-boot:build-image -DskipTests
+kind load docker-image demo-modulith-sb4:0.0.1 --name formation
+kubectl apply -f k8s/namespace.yaml
+kubectl apply -f k8s/
+kubectl port-forward -n shop svc/modulith 8080:80
+```
+
+```bash
+curl -s -X POST "http://localhost:8080/coffees?name=Arabica&price=5"
+curl -s http://localhost:8080/coffees
+curl -s http://localhost:8080/stocks/1
+```
+
+Command outputs for each step are in `outputs/j2/`.
+
+---
+
+> **Note:** this repository contains school assignments completed as part of the EPITA curriculum.
+> The topics were set by the course and do not necessarily reflect my personal project interests.
