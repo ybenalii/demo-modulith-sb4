@@ -60,7 +60,7 @@ The same application is reused for exercises with [kind](https://kind.sigs.k8s.i
 
 | Part | Folder / files | Topic | Status |
 |---|---|---|---|
-| Mini-TP | `mini-tp-replicasets/` | Deployment, ReplicaSets, rolling update, rollback, `revisionHistoryLimit` | in progress |
+| Mini-TP | `mini-tp-replicasets/` | Deployment, ReplicaSets, rolling update, rollback, `revisionHistoryLimit` | done |
 | J2 | `kind-cluster.yaml`, `k8s/`, `src/` | Modulith on kind: buildpacks image, Service, probes, scaling, Postgres with Secret, ConfigMap and PVC | in progress |
 
 Requirements: Docker, kind 0.30+, kubectl, JDK 21+, bash.
