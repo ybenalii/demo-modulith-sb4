@@ -1,0 +1,12 @@
+NAME                        READY   STATUS    RESTARTS   AGE
+modulith-5b89cccfbd-qtpmk   1/1     Running   0          18s
+modulith-5b89cccfbd-qtpmk   1/1     Terminating   0          19s
+modulith-5b89cccfbd-fq8zj   0/1     Pending       0          0s
+modulith-5b89cccfbd-qtpmk   1/1     Terminating   0          19s
+modulith-5b89cccfbd-fq8zj   0/1     Pending       0          0s
+modulith-5b89cccfbd-fq8zj   0/1     ContainerCreating   0          0s
+modulith-5b89cccfbd-qtpmk   0/1     Error               0          19s
+modulith-5b89cccfbd-fq8zj   0/1     ContainerCreating   0          0s
+modulith-5b89cccfbd-fq8zj   1/1     Running             0          1s
+modulith-5b89cccfbd-qtpmk   0/1     Error               0          20s
+modulith-5b89cccfbd-qtpmk   0/1     Error               0          20s

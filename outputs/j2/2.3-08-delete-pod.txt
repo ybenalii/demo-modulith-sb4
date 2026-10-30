@@ -1,0 +1,1 @@
+pod "modulith-5b89cccfbd-qtpmk" deleted from shop namespace
