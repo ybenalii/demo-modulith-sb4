@@ -1,0 +1,3 @@
+Deleting cluster "tp-rs" ...
+Deleted nodes: ["tp-rs-worker" "tp-rs-control-plane" "tp-rs-worker2"]
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
