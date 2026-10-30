@@ -1,0 +1,108 @@
+1.23: Pulling from library/nginx
+f03b40093957: Pulling fs layer
+0972072e0e8a: Pulling fs layer
+a85095acb896: Pulling fs layer
+d24b987aa74e: Pulling fs layer
+6c1a86118ade: Pulling fs layer
+9989f7b33228: Pulling fs layer
+d24b987aa74e: Waiting
+6c1a86118ade: Waiting
+9989f7b33228: Waiting
+a85095acb896: Verifying Checksum
+a85095acb896: Download complete
+d24b987aa74e: Verifying Checksum
+d24b987aa74e: Download complete
+6c1a86118ade: Verifying Checksum
+6c1a86118ade: Download complete
+9989f7b33228: Download complete
+f03b40093957: Verifying Checksum
+f03b40093957: Download complete
+0972072e0e8a: Verifying Checksum
+0972072e0e8a: Download complete
+f03b40093957: Pull complete
+0972072e0e8a: Pull complete
+a85095acb896: Pull complete
+d24b987aa74e: Pull complete
+6c1a86118ade: Pull complete
+9989f7b33228: Pull complete
+Digest: sha256:f5747a42e3adcb3168049d63278d7251d91185bb5111d2563d58729a5c9179b0
+Status: Downloaded newer image for nginx:1.23
+docker.io/library/nginx:1.23
+Image: "nginx:1.23" with ID "sha256:a7be6198544f09a75b26e6376459b47c5b9972e7aa742af9f356b540fe852cd4" not yet present on node "tp-rs-worker", loading...
+Image: "nginx:1.23" with ID "sha256:a7be6198544f09a75b26e6376459b47c5b9972e7aa742af9f356b540fe852cd4" not yet present on node "tp-rs-control-plane", loading...
+Image: "nginx:1.23" with ID "sha256:a7be6198544f09a75b26e6376459b47c5b9972e7aa742af9f356b540fe852cd4" not yet present on node "tp-rs-worker2", loading...
+1.25: Pulling from library/nginx
+09f376ebb190: Already exists
+a11fc495bafd: Pulling fs layer
+933cc8470577: Pulling fs layer
+999643392fb7: Pulling fs layer
+971bb7f4fb12: Pulling fs layer
+45337c09cd57: Pulling fs layer
+de3b062c0af7: Pulling fs layer
+971bb7f4fb12: Waiting
+45337c09cd57: Waiting
+de3b062c0af7: Waiting
+933cc8470577: Verifying Checksum
+933cc8470577: Download complete
+999643392fb7: Verifying Checksum
+999643392fb7: Download complete
+971bb7f4fb12: Verifying Checksum
+971bb7f4fb12: Download complete
+45337c09cd57: Verifying Checksum
+45337c09cd57: Download complete
+de3b062c0af7: Verifying Checksum
+de3b062c0af7: Download complete
+a11fc495bafd: Verifying Checksum
+a11fc495bafd: Download complete
+a11fc495bafd: Pull complete
+933cc8470577: Pull complete
+999643392fb7: Pull complete
+971bb7f4fb12: Pull complete
+45337c09cd57: Pull complete
+de3b062c0af7: Pull complete
+Digest: sha256:a484819eb60211f5299034ac80f6a681b06f89e65866ce91f356ed7c72af059c
+Status: Downloaded newer image for nginx:1.25
+docker.io/library/nginx:1.25
+Image: "nginx:1.25" with ID "sha256:e784f4560448b14a66f55c26e1b4dad2c2877cc73d001b7cd0b18e24a700a070" not yet present on node "tp-rs-worker", loading...
+Image: "nginx:1.25" with ID "sha256:e784f4560448b14a66f55c26e1b4dad2c2877cc73d001b7cd0b18e24a700a070" not yet present on node "tp-rs-control-plane", loading...
+Image: "nginx:1.25" with ID "sha256:e784f4560448b14a66f55c26e1b4dad2c2877cc73d001b7cd0b18e24a700a070" not yet present on node "tp-rs-worker2", loading...
+1.27: Pulling from library/nginx
+dad67da3f26b: Pulling fs layer
+3b00567da964: Pulling fs layer
+56b81cfa547d: Pulling fs layer
+1bc5dc8b475d: Pulling fs layer
+979e6233a40a: Pulling fs layer
+d2a7ba8dbfee: Pulling fs layer
+1bc5dc8b475d: Waiting
+32e44235e1d5: Pulling fs layer
+979e6233a40a: Waiting
+d2a7ba8dbfee: Waiting
+32e44235e1d5: Waiting
+56b81cfa547d: Download complete
+1bc5dc8b475d: Verifying Checksum
+1bc5dc8b475d: Download complete
+979e6233a40a: Verifying Checksum
+979e6233a40a: Download complete
+d2a7ba8dbfee: Verifying Checksum
+d2a7ba8dbfee: Download complete
+32e44235e1d5: Verifying Checksum
+32e44235e1d5: Download complete
+dad67da3f26b: Download complete
+3b00567da964: Verifying Checksum
+3b00567da964: Download complete
+dad67da3f26b: Pull complete
+3b00567da964: Pull complete
+56b81cfa547d: Pull complete
+1bc5dc8b475d: Pull complete
+979e6233a40a: Pull complete
+d2a7ba8dbfee: Pull complete
+32e44235e1d5: Pull complete
+Digest: sha256:6784fb0834aa7dbbe12e3d7471e69c290df3e6ba810dc38b34ae33d3c1c05f7d
+Status: Downloaded newer image for nginx:1.27
+docker.io/library/nginx:1.27
+Image: "nginx:1.27" with ID "sha256:1e5f3c5b981a9f91ca91cf13ce87c2eedfc7a083f4f279552084dd08fc477512" not yet present on node "tp-rs-worker", loading...
+Image: "nginx:1.27" with ID "sha256:1e5f3c5b981a9f91ca91cf13ce87c2eedfc7a083f4f279552084dd08fc477512" not yet present on node "tp-rs-control-plane", loading...
+Image: "nginx:1.27" with ID "sha256:1e5f3c5b981a9f91ca91cf13ce87c2eedfc7a083f4f279552084dd08fc477512" not yet present on node "tp-rs-worker2", loading...
+docker.io/library/nginx                         1.23                 a7be6198544f0       147MB
+docker.io/library/nginx                         1.25                 e784f4560448b       192MB
+docker.io/library/nginx                         1.27                 1e5f3c5b981a9       197MB
