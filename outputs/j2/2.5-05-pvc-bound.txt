@@ -1,0 +1,5 @@
+NAME                                  STATUS   VOLUME                                     CAPACITY   ACCESS MODES   STORAGECLASS   VOLUMEATTRIBUTESCLASS   AGE
+persistentvolumeclaim/postgres-data   Bound    pvc-39cd2d26-258f-4317-9fe6-ea2a2759e2eb   1Gi        RWO            standard       <unset>                 30s
+
+NAME                                                        CAPACITY   ACCESS MODES   RECLAIM POLICY   STATUS   CLAIM                STORAGECLASS   VOLUMEATTRIBUTESCLASS   REASON   AGE
+persistentvolume/pvc-39cd2d26-258f-4317-9fe6-ea2a2759e2eb   1Gi        RWO            Delete           Bound    shop/postgres-data   standard       <unset>                          26s

@@ -1,0 +1,8 @@
+deployment.apps/postgres created
+service/postgres created
+NAME                        READY   STATUS    RESTARTS   AGE
+postgres-69d9f76c4f-26qh8   0/1     Pending   0          0s
+postgres-69d9f76c4f-26qh8   0/1     Pending   0          4s
+postgres-69d9f76c4f-26qh8   0/1     ContainerCreating   0          4s
+postgres-69d9f76c4f-26qh8   0/1     ContainerCreating   0          4s
+postgres-69d9f76c4f-26qh8   1/1     Running             0          24s
