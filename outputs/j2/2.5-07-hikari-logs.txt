@@ -1,0 +1,3 @@
+2026-10-30T23:50:42.974Z  INFO 1 --- [demo-modulith-sb4] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-10-30T23:50:43.118Z  INFO 1 --- [demo-modulith-sb4] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4b56b517
+2026-10-30T23:50:43.119Z  INFO 1 --- [demo-modulith-sb4] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
