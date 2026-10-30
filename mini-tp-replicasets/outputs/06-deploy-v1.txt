@@ -1,0 +1,20 @@
+deployment.apps/mon-site created
+Waiting for deployment "mon-site" rollout to finish: 0 of 3 updated replicas are available...
+Waiting for deployment "mon-site" rollout to finish: 2 of 3 updated replicas are available...
+deployment "mon-site" successfully rolled out
+NAME                       READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/mon-site   3/3     3            3           1s
+
+NAME                                  DESIRED   CURRENT   READY   AGE
+replicaset.apps/mon-site-5d9c5df7f8   3         3         3       1s
+
+NAME                            READY   STATUS    RESTARTS   AGE
+pod/mon-site-5d9c5df7f8-6w2xx   1/1     Running   0          0s
+pod/mon-site-5d9c5df7f8-dqx6w   1/1     Running   0          0s
+pod/mon-site-5d9c5df7f8-dxgp8   1/1     Running   0          0s
+NAME                        READY   STATUS    RESTARTS   AGE   IP           NODE            NOMINATED NODE   READINESS GATES
+mon-site-5d9c5df7f8-6w2xx   1/1     Running   0          0s    10.244.2.3   tp-rs-worker2   <none>           <none>
+mon-site-5d9c5df7f8-dqx6w   1/1     Running   0          0s    10.244.1.2   tp-rs-worker    <none>           <none>
+mon-site-5d9c5df7f8-dxgp8   1/1     Running   0          0s    10.244.2.2   tp-rs-worker2   <none>           <none>
+NAME                  DESIRED   CURRENT   READY   IMAGE
+mon-site-5d9c5df7f8   3         3         3       nginx:1.23
