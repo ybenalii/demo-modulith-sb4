@@ -1,0 +1,22 @@
+demo-modulith-sb4:0.0.1                                            81e4a2e675fd        309MB             0B        
+IMAGE          CREATED   CREATED BY                                      SIZE      COMMENT
+81e4a2e675fd   N/A       Buildpacks Process Types                        69B       
+<missing>      N/A       Buildpacks Launcher Config                      1.96kB    
+<missing>      N/A       Buildpacks Application Launcher                 2.93MB    
+<missing>      N/A       Application Slice: 5                            0B        
+<missing>      N/A       Application Slice: 4                            19.2kB    
+<missing>      N/A       Application Slice: 3                            0B        
+<missing>      N/A       Application Slice: 2                            402kB     
+<missing>      N/A       Application Slice: 1                            57.5MB    
+<missing>      N/A       Software Bill-of-Materials                      893kB     
+<missing>      N/A       Layer: 'web-application-type', Created by bu…   3B        
+<missing>      N/A       Layer: 'spring-cloud-bindings', Created by b…   77.4kB    
+<missing>      N/A       Layer: 'helper', Created by buildpack: paket…   4.02MB    
+<missing>      N/A       Layer: 'classpath', Created by buildpack: pa…   11B       
+<missing>      N/A       Layer: 'jre', Created by buildpack: paketo-b…   207MB     
+<missing>      N/A       Layer: 'java-security-properties', Created b…   214B      
+<missing>      N/A       Layer: 'helper', Created by buildpack: paket…   5.49MB    
+<missing>      N/A       Layer: 'helper', Created by buildpack: paket…   5.19MB    
+<missing>      N/A                                                       519B      
+<missing>      N/A                                                       191B      
+<missing>      N/A                                                       24.9MB    
