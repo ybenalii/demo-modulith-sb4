@@ -1,0 +1,35 @@
+deployment.apps/mon-site 
+REVISION  CHANGE-CAUSE
+1         <none>
+2         <none>
+
+deployment.apps/mon-site with revision #1
+Pod Template:
+  Labels:	app=mon-site
+	pod-template-hash=5d9c5df7f8
+  Containers:
+   nginx:
+    Image:	nginx:1.23
+    Port:	<none>
+    Host Port:	<none>
+    Environment:	<none>
+    Mounts:	<none>
+  Volumes:	<none>
+  Node-Selectors:	<none>
+  Tolerations:	<none>
+
+deployment.apps/mon-site with revision #2
+Pod Template:
+  Labels:	app=mon-site
+	pod-template-hash=766d594b96
+  Containers:
+   nginx:
+    Image:	nginx:1.25
+    Port:	<none>
+    Host Port:	<none>
+    Environment:	<none>
+    Mounts:	<none>
+  Volumes:	<none>
+  Node-Selectors:	<none>
+  Tolerations:	<none>
+
