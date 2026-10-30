@@ -1,0 +1,35 @@
+kind: Cluster
+apiVersion: kind.x-k8s.io/v1alpha4
+nodes:
+  - role: control-plane
+  - role: worker
+  - role: worker
+Creating cluster "tp-rs" ...
+ • Ensuring node image (kindest/node:v1.37.0) 🖼️  ...
+ ✓ Ensuring node image (kindest/node:v1.37.0) 🖼️
+ • Preparing nodes 📦 📦 📦   ...
+ ✓ Preparing nodes 📦 📦 📦 
+ • Writing configuration 📜  ...
+ ✓ Writing configuration 📜
+ • Starting control-plane 🕹️  ...
+ ✓ Starting control-plane 🕹️
+ • Installing CNI 🔌  ...
+ ✓ Installing CNI 🔌
+ • Installing StorageClass 💾  ...
+ ✓ Installing StorageClass 💾
+ • Joining worker nodes 🚜  ...
+ ✓ Joining worker nodes 🚜
+Set kubectl context to "kind-tp-rs"
+You can now use your cluster with:
+
+kubectl cluster-info --context kind-tp-rs
+
+Have a question, bug, or feature request? Let us know! https://kind.sigs.k8s.io/#community 🙂
+kind-tp-rs
+node/tp-rs-control-plane condition met
+node/tp-rs-worker condition met
+node/tp-rs-worker2 condition met
+NAME                  STATUS   ROLES           AGE   VERSION
+tp-rs-control-plane   Ready    control-plane   24s   v1.37.0
+tp-rs-worker          Ready    <none>          13s   v1.37.0
+tp-rs-worker2         Ready    <none>          13s   v1.37.0
