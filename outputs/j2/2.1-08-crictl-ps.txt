@@ -1,0 +1,3 @@
+CONTAINER           IMAGE               CREATED             STATE               NAME                ATTEMPT             POD ID              POD                 NAMESPACE
+fac5b5dfe63a1       4626fe10df5b9       14 seconds ago      Running             kindnet-cni         0                   289b092885e19       kindnet-rgvlm       kube-system
+e54e1df35f8b1       d6a28daf3e6b0       15 seconds ago      Running             kube-proxy          0                   f6468a798db33       kube-proxy-5mzvh    kube-system

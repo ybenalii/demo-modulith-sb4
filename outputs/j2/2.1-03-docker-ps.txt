@@ -1,0 +1,4 @@
+CONTAINER ID   IMAGE                  COMMAND                  CREATED          STATUS          PORTS                       NAMES
+310bd989db0d   kindest/node:v1.37.0   "/usr/local/bin/entr…"   35 seconds ago   Up 34 seconds                               formation-worker
+ecaa2f3e7573   kindest/node:v1.37.0   "/usr/local/bin/entr…"   35 seconds ago   Up 34 seconds                               formation-worker2
+5ea09aa53060   kindest/node:v1.37.0   "/usr/local/bin/entr…"   35 seconds ago   Up 34 seconds   127.0.0.1:43879->6443/tcp   formation-control-plane

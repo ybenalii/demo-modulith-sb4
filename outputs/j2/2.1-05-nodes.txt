@@ -1,0 +1,4 @@
+NAME                      STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION              CONTAINER-RUNTIME
+formation-control-plane   Ready    control-plane   27s   v1.37.0   172.18.0.5    <none>        Debian GNU/Linux 13 (trixie)   6.8.0-147-generic (amd64)   containerd://2.3.4
+formation-worker          Ready    <none>          16s   v1.37.0   172.18.0.3    <none>        Debian GNU/Linux 13 (trixie)   6.8.0-147-generic (amd64)   containerd://2.3.4
+formation-worker2         Ready    <none>          16s   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   6.8.0-147-generic (amd64)   containerd://2.3.4

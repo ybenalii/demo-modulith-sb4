@@ -1,0 +1,19 @@
+deployment.apps/nginx created
+Waiting for deployment "nginx" rollout to finish: 0 of 2 updated replicas are available...
+Waiting for deployment "nginx" rollout to finish: 1 of 2 updated replicas are available...
+deployment "nginx" successfully rolled out
+NAME                     READY   STATUS    RESTARTS   AGE   IP           NODE                NOMINATED NODE   READINESS GATES
+nginx-69b9cdbbdd-vwlgl   1/1     Running   0          7s    10.244.1.2   formation-worker2   <none>           <none>
+nginx-69b9cdbbdd-xchfr   1/1     Running   0          7s    10.244.2.2   formation-worker    <none>           <none>
+pod "nginx-69b9cdbbdd-vwlgl" deleted from default namespace
+NAME                     READY   STATUS    RESTARTS   AGE
+nginx-69b9cdbbdd-gj877   1/1     Running   0          6s
+nginx-69b9cdbbdd-xchfr   1/1     Running   0          13s
+deployment.apps/nginx scaled
+NAME                     READY   STATUS    RESTARTS   AGE
+nginx-69b9cdbbdd-gj877   1/1     Running   0          11s
+nginx-69b9cdbbdd-s68w8   1/1     Running   0          5s
+nginx-69b9cdbbdd-thtvt   1/1     Running   0          5s
+nginx-69b9cdbbdd-xchfr   1/1     Running   0          18s
+deployment.apps "nginx" deleted from default namespace
+No resources found in default namespace.

@@ -1,0 +1,13 @@
+NAME                                              READY   STATUS    RESTARTS   AGE
+coredns-559f6c778d-qhrn5                          1/1     Running   0          17s
+coredns-559f6c778d-xl9xm                          1/1     Running   0          17s
+etcd-formation-control-plane                      1/1     Running   0          24s
+kindnet-pbbcw                                     1/1     Running   0          16s
+kindnet-rgvlm                                     1/1     Running   0          16s
+kindnet-wrm28                                     1/1     Running   0          17s
+kube-apiserver-formation-control-plane            1/1     Running   0          24s
+kube-controller-manager-formation-control-plane   1/1     Running   0          24s
+kube-proxy-5mzvh                                  1/1     Running   0          16s
+kube-proxy-d56lx                                  1/1     Running   0          16s
+kube-proxy-rfw2b                                  1/1     Running   0          17s
+kube-scheduler-formation-control-plane            1/1     Running   0          24s
