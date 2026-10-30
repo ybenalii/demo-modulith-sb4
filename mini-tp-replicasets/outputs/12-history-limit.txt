@@ -1,0 +1,10 @@
+10
+deployment.apps/mon-site patched
+NAME                  DESIRED   CURRENT   READY   AGE
+mon-site-5d9c5df7f8   0         0         0       73s
+mon-site-766d594b96   0         0         0       61s
+mon-site-d75db8b4b    3         3         3       18s
+deployment.apps/mon-site patched
+NAME                 DESIRED   CURRENT   READY   AGE
+mon-site-d75db8b4b   3         3         3       23s
+error: no rollout history found for deployment "mon-site"
