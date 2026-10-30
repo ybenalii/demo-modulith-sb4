@@ -1,0 +1,3 @@
+deployment.apps/mon-site patched
+NAME                  DESIRED   CURRENT   READY   IMAGE
+mon-site-5d9c5df7f8   3         3         3       nginx:1.23
