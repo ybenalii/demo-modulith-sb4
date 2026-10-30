@@ -1,0 +1,5 @@
+NAME                        READY   STATUS    RESTARTS   AGE
+modulith-7dbfb467c7-d9l7d   1/1     Running   0          29s
+modulith-7dbfb467c7-rgpsd   1/1     Running   0          29s
+modulith-7dbfb467c7-vg5sb   1/1     Running   0          29s
+postgres-69d9f76c4f-jtkpf   1/1     Running   0          28s

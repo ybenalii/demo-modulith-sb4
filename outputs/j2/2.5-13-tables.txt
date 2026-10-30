@@ -1,0 +1,8 @@
+             List of relations
+ Schema |       Name        | Type  | Owner 
+--------+-------------------+-------+-------
+ public | coffee_entity     | table | shop
+ public | event_publication | table | shop
+ public | stock_entity      | table | shop
+(3 rows)
+

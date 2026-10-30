@@ -1,0 +1,5 @@
+  status   |        completion_date        |             event_type              
+-----------+-------------------------------+-------------------------------------
+ COMPLETED | 2026-10-30 23:51:11.341691+00 | org.formation.catalog.CoffeeCreated
+(1 row)
+
